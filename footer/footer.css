@@ -1,0 +1,80 @@
+/* GENERAL */
+@font-face {
+    font-family: "roboto";
+    src:    url(./fonts/roboto-regular.woff2) format("woff2");
+}
+
+/* Soluciona problemas con los paddings */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h5, ul{
+    margin-top: 0;
+}
+h6{
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: #2385E0;
+    font-size: 18px;
+    padding: 20px;
+}
+.links{
+    display: flex;
+    
+}
+h5, h6{
+    font-size: 18px;
+}
+
+
+/* Redes */
+.redes {
+    flex-grow: 0.2;
+}
+.redes_titulo {
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+/* Acerca */
+.acerca {
+    flex-grow: 2;
+}
+.acerca__titulo {
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+/* Terminos */
+.terminos {
+    flex-grow: 1;
+}
+.terminos__titulo {
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+/* Copyright */
+.copyright{
+    text-align: center;
+}

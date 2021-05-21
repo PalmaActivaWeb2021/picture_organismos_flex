@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(83, 45, 45);
+    font-family: sans-serif;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
